@@ -1,5 +1,5 @@
 {% set name = "opentelemetry-instrumentation-llamaindex" %}
-{% set version = "0.40.14" %}
+{% set version = "0.41.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/opentelemetry_instrumentation_llamaindex-{{ version }}.tar.gz
-  sha256: 9916136126cd59c8360b189b022af6337f3ed091dccbf11317b045c452e5185b
+  sha256: c4cacebfd0dc0d0c11b203d1b7e6903838968d822fdb2509bdf1d871a2e70575
 
 build:
   noarch: python
@@ -24,7 +24,7 @@ requirements:
     - opentelemetry-api >=1.28.0,<2.0.0
     - opentelemetry-instrumentation >=0.50b0
     - opentelemetry-semantic-conventions >=0.50b0
-    - opentelemetry-semantic-conventions-ai 0.4.9
+    - opentelemetry-semantic-conventions-ai 0.4.10
     - inflection >=0.5.1,<0.6.0
   run_constrained:
     - llama-index >=0.12.6,<0.13.0
