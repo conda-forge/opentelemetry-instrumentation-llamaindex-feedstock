@@ -1,5 +1,5 @@
 {% set name = "opentelemetry-instrumentation-llamaindex" %}
-{% set version = "0.45.1" %}
+{% set version = "0.45.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/opentelemetry_instrumentation_llamaindex-{{ version }}.tar.gz
-  sha256: edfb4eb14c1c37f0132f8f41e85d0a157e878617923d6935d7a1c5e5070d163d
+  sha256: cc294cb968b3e7633ba88d744a250eb6dda085dd4fa6ab002d8f73c1fda453e8
 
 build:
   noarch: python
