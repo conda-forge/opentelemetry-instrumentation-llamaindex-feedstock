@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: opentelemetry-instrumentation-llamaindex
-  version: "0.63.0"
+  version: "0.63.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/opentelemetry_instrumentation_llamaindex-${{ version }}.tar.gz
-  sha256: 3e21a5c9023f81c84c592b77e221254c70fc44d8e315490402b3e0263e780092
+  sha256: e6927b9613a58f02a9247b0270221438ab6d5c36ddfcabaee4b0d384cf29717b
 
 build:
   number: 0
